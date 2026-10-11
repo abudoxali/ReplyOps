@@ -143,3 +143,23 @@ Backup restore source:
 - Complete Telegram real-user live acceptance.
 - Provide real Meta WhatsApp credentials and approved templates for provider-live acceptance.
 - After final GitHub push and CI pass, record final commit and CI run here if exact run ID is required inside the repository status file.
+
+
+## Commercial Launch Discovery — 2026-10-11 (STAGING ONLY)
+
+This section documents commercial launch activity. The July 29, 2026 software and provider-live percentages above remain historical acceptance reports and must not be interpreted as October production verification.
+
+- Canonical product repository: `abudoxali/ReplyOps`, `main` at `54437138e5cf6b2d6ee3b523b3f58b0fb198f225` (last source commit 2026-07-29).
+- Current software build: not independently re-run against the October production environment during commercial discovery.
+- Last observed GitHub Actions run for the existing source SHA: completed successfully 2026-10-06; this proves CI status, not live external channel acceptance.
+- Current `replyops.abud.fun` live deployment: not directly accessible to the discovery environment; July release details above are not re-verified as current.
+- Marketing implementation: an Arabic-first, English-supported `/replyops` commercial landing page has been staged in the separate ABUD website repository `abudoxali/abud`, branch `feat/replyops-commercial-landing`, draft PR https://github.com/abudoxali/abud/pull/2.
+- Landing status: source drafted only. No build/typecheck/browser/visual/lead-funnel verification, merge, or deployment claimed.
+- Landing copy explicitly labels Web Chat software acceptance separately from Telegram and Meta WhatsApp provider-live blockers; no unverified sales, uptime, or cost-saving claims.
+- Initial commercial offer: proposed tailored paid discovery/setup and a single-channel managed implementation with optional recurring support; **no public price approved**.
+- ABUD website already has reusable portfolio data, marketing landing-page components, contact form, and analytics page-view/UTM attribution facilities. Full conversion-event QA and homepage promotion are pending.
+- Media inventory: ReplyOps repository `public/` contains only starter SVG icons; ABUD website includes `public/portfolio-screenshots/replyops-ai.webp`, but that file alone has not been independently validated as authentic current-dashboard evidence. No verified ReplyOps ad video or screenshot gallery was found in the inspected repository trees.
+- Original exploratory campaign hero visual generated separately; not yet integrated into source, approved as final branding, or represented as a product screenshot.
+- External channel blockers remain unchanged from the latest recorded acceptance: Telegram real-user sequence; WhatsApp Meta provider credentials/approval/approved templates.
+- Pre-launch requirements: validate the current prod endpoint and owner-only access, capture browser-verified synthetic-data real UI, compile/test the staged landing, exercise lead submission and conversion attribution, decide commercial terms/licensing/provider-cost disclosures, render and review the three required real-demonstration videos, then release through existing rollback-safe deployment.
+- Production services and customer data were not modified as part of this discovery.
